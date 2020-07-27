@@ -16,8 +16,8 @@ try {
         "send_email" => true,
         "send_sms" => true,
         'allow_repeated_payments' => false,
-        "redirect_url" => "https://studentstutorial.com/instamojo/thankyou.php",
-        "webhook" => "https://studentstutorial.com/instamojo/webhook.php"
+        "redirect_url" => "https://manycerts.azurewebsites.net/thankyou.php",
+        "webhook" => "https://manycerts.azurewebsites.net//webhook.php"
         ));
    $pay_ulr = $response['longurl'];
     header("Location: $pay_ulr");

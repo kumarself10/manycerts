@@ -1,30 +1,46 @@
-<?php 
-$purpose = "Payment";
-$amount = $_POST["amount"];
-$name = $_POST["name"];
-$phone = $_POST["phone"];
-$email = $_POST["email"];
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+	<title>Thank You, Mojo</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" 
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </head>
+	<body>
+    <div class="container">
+	<div class="page-header">
+        <h1><a href="index.php">Instamojo Payment</a></h1>
+        <p class="lead">A test payment integration for instamojo paypemnt gateway. Written in PHP</p>
+    </div>
+	<h3 style="color:#6da552">Thank You, Payment succus!!</h3>
+<?php
 include 'src/instamojo.php';
-$api = new Instamojo\Instamojo('29b34070bf5867b7d36bf2586c4f4855', '40d161c14f252cc781066e0c685f5f4d','https://www.instamojo.com/api/1.1/');
+$api = new Instamojo\Instamojo('6dcdc7a627a360c9483f6d01f91d9c8a', '74161df4b28ba8583eb37942d1b0ce89','https://test.instamojo.com/api/1.1/');
+$payid = $_GET["payment_request_id"];
 try {
-    $response = $api->paymentRequestCreate(array(
-        "purpose" => $purpose,
-        "amount" => $amount,
-        "buyer_name" => $name,
-        "phone" => $phone,
-		"email" => $email,
-        "send_email" => true,
-        "send_sms" => true,
-        'allow_repeated_payments' => false,
-        "redirect_url" => "https://manycerts.com/thankyou.php",
-        "webhook" => "https://studentstutorial.com/instamojo/webhook.php"
-        ));
-   $pay_ulr = $response['longurl'];
-    header("Location: $pay_ulr");
-    exit();
+    $response = $api->paymentRequestStatus($payid);
+	echo "<h4>Payment ID: " . $response['payments'][0]['payment_id'] . "</h4>" ;
+    echo "<h4>Payment Name: " . $response['payments'][0]['buyer_name'] . "</h4>" ;
+    echo "<h4>Payment Email: " . $response['payments'][0]['email'] . "</h4>" ;
+echo "<pre>";
+   print_r($response);
+echo "</pre>";
 }
 catch (Exception $e) {
     print('Error: ' . $e->getMessage());
-}     
- ?>
- 
+}
+?>
+</div> <!-- /container -->
+</body>
+</html>
+
