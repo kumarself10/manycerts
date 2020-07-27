@@ -5,7 +5,7 @@ $name = $_POST["name"];
 $phone = $_POST["phone"];
 $email = $_POST["email"];
 include 'src/instamojo.php';
-$api = new Instamojo\Instamojo('29b34070bf5867b7d36bf2586c4f4855', '40d161c14f252cc781066e0c685f5f4d','https://www.instamojo.com/api/1.1/');
+$api = new Instamojo\Instamojo('6dcdc7a627a360c9483f6d01f91d9c8a', '74161df4b28ba8583eb37942d1b0ce89','https://www.instamojo.com/api/1.1/');
 try {
     $response = $api->paymentRequestCreate(array(
         "purpose" => $purpose,
