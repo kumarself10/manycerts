@@ -37,7 +37,7 @@
 			</div>
 			<div class="form-group">
 			<label>Amount</label>
-			<input type="email" class="form-control" name="amount" Value="100" readonly>
+			<input type="email" class="form-control" name="amount" Value="">
 			</div>
 			<p><input type="submit" class="btn btn-success btn-lg" value="Click here to Pay"></p>
 		</form>
