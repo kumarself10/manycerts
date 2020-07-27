@@ -22,10 +22,10 @@
         <h1><a href="index.php">ManyCerts Payment</a></h1>
         <p class="lead">You will receive the materials you requested to your email ID in few minutes</p>
     </div>
-	<h3 style="color:#6da552">Thank You, Payment succus!!</h3>
+	<h3 style="color:#6da552">Thank You, Your Payment is success!!</h3>
 <?php
 include 'src/instamojo.php';
-$api = new Instamojo\Instamojo('6dcdc7a627a360c9483f6d01f91d9c8a', '74161df4b28ba8583eb37942d1b0ce89','https://test.instamojo.com/api/1.1/');
+$api = new Instamojo\Instamojo('6dcdc7a627a360c9483f6d01f91d9c8a', '74161df4b28ba8583eb37942d1b0ce89','https://www.instamojo.com/api/1.1/');
 $payid = $_GET["payment_request_id"];
 try {
     $response = $api->paymentRequestStatus($payid);

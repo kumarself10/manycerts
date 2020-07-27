@@ -17,7 +17,7 @@ try {
         "send_sms" => true,
         'allow_repeated_payments' => false,
         "redirect_url" => "https://manycerts.azurewebsites.net/thankyou.php",
-        "webhook" => "https://manycerts.azurewebsites.net//webhook.php"
+        "webhook" => "https://manycerts.azurewebsites.net/webhook.php"
         ));
    $pay_ulr = $response['longurl'];
     header("Location: $pay_ulr");
