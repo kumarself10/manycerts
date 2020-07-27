@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
-	<title>Thank You, Mojo</title>
+	<title>Thank You, ManyCerts</title>
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
 <!-- Optional theme -->
@@ -19,8 +19,8 @@
 	<body>
     <div class="container">
 	<div class="page-header">
-        <h1><a href="index.php">Instamojo Payment</a></h1>
-        <p class="lead">A test payment integration for instamojo paypemnt gateway. Written in PHP</p>
+        <h1><a href="index.php">ManyCerts Payment</a></h1>
+        <p class="lead">You will receive the materials you requested to your email ID in few minutes</p>
     </div>
 	<h3 style="color:#6da552">Thank You, Payment succus!!</h3>
 <?php
