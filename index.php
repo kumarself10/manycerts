@@ -36,6 +36,10 @@
 			<input type="email" class="form-control" name="email" placeholder="Enter you email"> 
 			</div>
 			<div class="form-group">
+			<label>Course you want</label>
+			<input type="text" class="form-control" name="phone" placeholder="Enter your phone number"> 
+			</div>
+			<div class="form-group">
 			<label>Amount</label>
 			<input type="text" class="form-control" name="amount" Value="">
 			</div>
