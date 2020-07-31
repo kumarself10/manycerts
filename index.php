@@ -36,7 +36,15 @@
 			<input type="email" class="form-control" name="email" placeholder="Enter you email"> 
 			</div>
 			<div class="form-group">
-			<label>Course Name you want to Enroll</label>
+			<label>Training or Certification you want to Enroll </label>
+			<select name="category" id="category">
+            <option value="Amazon Web Services">Training</option>
+            <option value="Microsoft Azure">Certification</option>
+            </select>
+			</div>
+			</div>
+			<div class="form-group">
+			<label>Training/Certification</label>
 			<select name="Course" id="courses">
             <option value="Amazon Web Services">Amazon Web Services</option>
             <option value="Microsoft Azure">Microsoft Azure</option>
