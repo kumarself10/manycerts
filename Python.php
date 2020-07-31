@@ -19,29 +19,14 @@
 	<body>
     <div class="container">
 	<div class="page-header">
-        <h1><a href="index.php">Python Training Videos By Real Time Expert - 25+ hours - 250 Rs Only</a></h1>
+        <h1><a href="index.php">Python Training Videos</a></h1>
 		<form action="pay.php" method="POST" accept-charset="utf-8">
-			<input type="hidden" name="product_name" value="<?php echo $prd_name; ?>"> 
-			<input type="hidden" name="product_price" value="<?php echo $prd_price; ?>"> 
-			<div class="form-group">
-			<label>Your Name</label>
-			<input type="text" class="form-control" name="name" placeholder="Enter your name">	 
-			</div>
-			<div class="form-group">
-			<label>Your Phone</label>
-			<input type="text" class="form-control" name="phone" placeholder="Enter your phone number"> 
-			</div>
-			<div class="form-group">
-			<label>Your Email</label>
-			<input type="email" class="form-control" name="email" placeholder="Enter you email"> 
-			</div>
-			<div class="form-group">
-			<label>Training</label>
-			<select name="Course" id="courses">
-            <option value="Python">Python</option>
-			</select>
-           </div>
-            <label>Amount</label>
+			<h1>
+			1. Python Training Videos By Real Time Expert
+			2. 25 Plus hours
+			3. 250 Rs Only
+			4. Life time Validity
+           
 			<a href="https://www.instamojo.com/@manycerts/leb141c9e5cdc4fc29d6fbf61f2375b63/" rel="im-checkout" data-text="Pay" data-css-style="color:#ffffff; background:#008b02; width:300px; border-radius:4px"   data-layout="vertical"></a>
 			<script src="https://js.instamojo.com/v1/button.js"></script>
            	</form>
