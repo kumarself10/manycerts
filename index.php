@@ -61,6 +61,8 @@
             <option value="Tabelu">Tabelu</option>
             </select>
 			</div>
+			<a href="https://www.instamojo.com/@manycerts/l81e87f7ec29e43caaf50dd511fe46398/" rel="im-checkout" data-text="Pay" data-css-style="color:#ffffff; background:#75c26a; width:300px; border-radius:4px"   data-layout="vertical"></a>
+<script src="https://js.instamojo.com/v1/button.js"></script>
             <label>Amount</label>
 			<input type="text" class="form-control" name="amount" Value="">
 			</div>
