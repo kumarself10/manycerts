@@ -42,6 +42,7 @@
             <option value="Microsoft Azure">Certification</option>
             </select>
 			</div>
+			
 			<div class="form-group">
 			<label>Training/Certification</label>
 			<select name="Course" id="courses">
@@ -61,7 +62,6 @@
             <option value="Tabelu">Tabelu</option>
             </select>
 			</div>
-			
             <label>Amount</label>
 			<input type="text" class="form-control" name="amount" Value="">
 			</div>
