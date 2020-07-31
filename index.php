@@ -54,18 +54,7 @@
             <option value="Tabelu">Tabelu</option>
             </select>
 			</div>
-            <div class="form-group">
-			<label>Certification dumps you want to Buy</label>
-			<select name="Dumps" id="Dumps">
-            <option value="Amazon Web Services">Amazon Web Services</option>
-            <option value="Microsoft Azure">Microsoft Azure</option>
-            <option value="Microsoft Azure">Google Cloud</option>
-            <option value="DevOps">DevOps</option>
-            <option value="CISSP">CISSP</option>
-            </select>
-			</div>
-			<div class="form-group">
-			<label>Amount</label>
+            <label>Amount</label>
 			<input type="text" class="form-control" name="amount" Value="">
 			</div>
 			<p><input type="submit" class="btn btn-success btn-lg" value="Click here to Pay"></p>
