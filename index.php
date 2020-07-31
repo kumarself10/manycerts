@@ -42,7 +42,6 @@
             <option value="Microsoft Azure">Certification</option>
             </select>
 			</div>
-			</div>
 			<div class="form-group">
 			<label>Training/Certification</label>
 			<select name="Course" id="courses">
