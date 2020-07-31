@@ -36,19 +36,15 @@
 			<input type="email" class="form-control" name="email" placeholder="Enter you email"> 
 			</div>
 			<div class="form-group">
-			<div class="form-group">
 			<label>Training</label>
 			<select name="Course" id="courses">
-            
             <option value="Python">Python</option>
 			</select>
-            		
-			</div>
+           </div>
             <label>Amount</label>
-			<<a href="https://www.instamojo.com/@manycerts/leb141c9e5cdc4fc29d6fbf61f2375b63/" rel="im-checkout" data-text="Pay" data-css-style="color:#ffffff; background:#008b02; width:300px; border-radius:4px"   data-layout="vertical"></a>
+			<a href="https://www.instamojo.com/@manycerts/leb141c9e5cdc4fc29d6fbf61f2375b63/" rel="im-checkout" data-text="Pay" data-css-style="color:#ffffff; background:#008b02; width:300px; border-radius:4px"   data-layout="vertical"></a>
 			<script src="https://js.instamojo.com/v1/button.js"></script>
-           
-		</form>
+           	</form>
  
     
     </div> <!-- /container -->
