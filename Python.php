@@ -41,12 +41,14 @@
 			<select name="Course" id="courses">
             
             <option value="Python">Python</option>
-            
+			</select>
+            		
 			</div>
-			<div>
-			<a href="https://www.instamojo.com/@manycerts/l81e87f7ec29e43caaf50dd511fe46398/" rel="im-checkout" data-text="Pay" data-css-style="color:#ffffff; background:#008b02; width:300px; border-radius:4px"   data-layout="vertical"></a>
+            <label>Amount</label>
+			<input type="text" class="form-control" name="amount" Value="">
+						<a href="https://www.instamojo.com/@manycerts/l81e87f7ec29e43caaf50dd511fe46398/" rel="im-checkout" data-text="Pay" data-css-style="color:#ffffff; background:#008b02; width:300px; border-radius:4px"   data-layout="vertical"></a>
 			<script src="https://js.instamojo.com/v1/button.js"></script>
-            </div>
+           
 		</form>
  
     
