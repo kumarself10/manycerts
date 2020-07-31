@@ -36,36 +36,16 @@
 			<input type="email" class="form-control" name="email" placeholder="Enter you email"> 
 			</div>
 			<div class="form-group">
-			<label>Training or Certification you want to Enroll </label>
-			<select name="category" id="category">
-            <option value="Amazon Web Services">Training</option>
-            <option value="Microsoft Azure">Certification</option>
-            </select>
-			</div>
-			<div class="form-group">
-			<label>Training/Certification</label>
+						<div class="form-group">
+			<label>Training</label>
 			<select name="Course" id="courses">
-            <option value="Amazon Web Services">Amazon Web Services</option>
-            <option value="Microsoft Azure">Microsoft Azure</option>
-            <option value="Microsoft Azure">Google Cloud</option>
-            <option value="DevOps">DevOps</option>
+            
             <option value="Python">Python</option>
-            <option value="CISSP">CISSP</option>
-            <option value="Data Science">Data Science</option>
-            <option value="Workday SaaS HCM">Workday SaaS HCM</option>
-            <option value="Workday SaaS Financethon">Workday SaaS Finance</option>
-            <option value="Redhat Ansible">Redhat Ansible</option>
-            <option value="Redhat OpenShift">Redhat OpenShift</option>
-            <option value="Redhat Linux 8">Redhat Linux 8</option>
-            <option value="Docker and Kubernetes">Docker and Kubernetes</option>
-            <option value="Tabelu">Tabelu</option>
-            </select>
+            
 			</div>
-			
-            <label>Amount</label>
-			<input type="text" class="form-control" name="amount" Value="">
-			</div>
-			<p><input type="submit" class="btn btn-success btn-lg" value="Click here to Pay"></p>
+			<a href="https://www.instamojo.com/@manycerts/l81e87f7ec29e43caaf50dd511fe46398/" rel="im-checkout" data-text="Pay" data-css-style="color:#ffffff; background:#008b02; width:300px; border-radius:4px"   data-layout="vertical"></a>
+			<script src="https://js.instamojo.com/v1/button.js"></script>
+            
 		</form>
  
     
