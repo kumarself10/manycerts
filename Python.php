@@ -22,10 +22,11 @@
         <h1><a href="index.php">Python Training Videos</a></h1>
 		<form action="pay.php" method="POST" accept-charset="utf-8">
 			<h2>
-			1. Py Real Time Expert </br>
+			1. By Real Time Expert </br>
 			2. 25 Plus hours </br>
 			3. 250 Rs Only</br>
 			4. Life time Validity</br>
+			
 			</h2>
            
 			<a href="https://www.instamojo.com/@manycerts/leb141c9e5cdc4fc29d6fbf61f2375b63/" rel="im-checkout" data-text="Pay" data-css-style="color:#ffffff; background:#008b02; width:300px; border-radius:4px"   data-layout="vertical"></a>
