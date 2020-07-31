@@ -36,13 +36,32 @@
 			<input type="email" class="form-control" name="email" placeholder="Enter you email"> 
 			</div>
 			<div class="form-group">
-			
 			<label>Course Name you want to Enroll</label>
-			<select name="Course" id="cars">
+			<select name="Course" id="courses">
             <option value="Amazon Web Services">Amazon Web Services</option>
             <option value="Microsoft Azure">Microsoft Azure</option>
+            <option value="Microsoft Azure">Google Cloud</option>
             <option value="DevOps">DevOps</option>
             <option value="Python">Python</option>
+            <option value="CISSP">CISSP</option>
+            <option value="Data Science">Data Science</option>
+            <option value="Workday SaaS HCM">Workday SaaS HCM</option>
+            <option value="Workday SaaS Financethon">Workday SaaS Finance</option>
+            <option value="Redhat Ansible">Redhat Ansible</option>
+            <option value="Redhat OpenShift">Redhat OpenShift</option>
+            <option value="Redhat Linux 8">Redhat Linux 8</option>
+            <option value="Docker and Kubernetes">Docker and Kubernetes</option>
+            <option value="Tabelu">Tabelu</option>
+            </select>
+			</div>
+            <div class="form-group">
+			<label>Certification dumps you want to Buy</label>
+			<select name="Dumps" id="Dumps">
+            <option value="Amazon Web Services">Amazon Web Services</option>
+            <option value="Microsoft Azure">Microsoft Azure</option>
+            <option value="Microsoft Azure">Google Cloud</option>
+            <option value="DevOps">DevOps</option>
+            <option value="CISSP">CISSP</option>
             </select>
 			</div>
 			<div class="form-group">
