@@ -38,7 +38,13 @@
 			<div class="form-group">
 			
 			<label>Course Name you want to Enroll</label>
-			<input type="text" class="form-control" name="Course Name" placeholder="AWS,Azure, DevOps, CISSP, Python etc"> 
+			<input type="text" class="form-control" name="Course Name" >
+            <select name="Course" id="cars">
+            <option value="Amazon Web Services">Amazon Web Services</option>
+            <option value="Microsoft Azure">Microsoft Azure</option>
+            <option value="DevOps">DevOps</option>
+            <option value="Python">Python</option>
+</select>
 			</div>
 			<div class="form-group">
 			<label>Amount</label>
