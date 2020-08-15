@@ -44,11 +44,27 @@
 			</div>
 			
 			<div class="form-group">
-			<label>Training/Certification</label>
+			<label>Name</label>
 			<select name="Course" id="courses">
-            <option value="Amazon Web Services">Amazon Web Services</option>
-            <option value="Microsoft Azure">Microsoft Azure</option>
-            <option value="Microsoft Azure">Google Cloud</option>
+            <option value="Amazon Web Services">AWS Solution Architect Associate</option>
+			<option value="Amazon Web Services">AWS Developer Associate</option>
+			<option value="Amazon Web Services">AWS SysOps Administrator Associate</option>
+			<option value="Amazon Web Services">AWS Solution Architect Professional</option>
+			<option value="Amazon Web Services">AWS DevOps Professional</option>
+			<option value="Amazon Web Services">AWS Networking Speciality </option>
+			<option value="Amazon Web Services">AWS Security Speciality</option>
+            <option value="Microsoft Azure">Azure Administrator AZ-104</option>
+			<option value="Microsoft Azure">Azure Developer AZ-204</option>
+			<option value="Microsoft Azure">Azure Architect - Implementing AZ-300</option>
+			<option value="Microsoft Azure">Azure DevOps AZ-400</option>
+			<option value="Microsoft Azure">Azure Security AZ-500</option>
+			<option value="Microsoft Azure">Azure Architect - Designing AZ-301</option>
+			<option value="Microsoft Azure">Azure Data Implemeting DP-200</option>
+			<option value="Microsoft Azure">Azure Data Designing DP-201</option>
+			<option value="Microsoft Azure">Azure Artificial Intelligence  AI-100</option>
+			<option value="Microsoft Azure">Azure SAP Workloads AZ-120</option>
+            <option value="Microsoft Azure">Google Cloud Architect Professional </option>
+			<option value="Microsoft Azure">Google Cloud Data Engineer </option>
             <option value="DevOps">DevOps</option>
             <option value="Python">Python</option>
             <option value="CISSP">CISSP</option>
