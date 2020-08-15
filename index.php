@@ -81,7 +81,8 @@
             <label>Amount</label>
 			<input type="text" class="form-control" name="amount" Value="">
 			</div>
-			<h1> Certification questions Rs 1000 per exam </h1>
+			<h2> Certification questions Cost Rs 1000 per exam </h2>
+			<h2> Training Videos Cost Rs 5000 per Course </h2>
 			<p><input type="submit" class="btn btn-success btn-lg" value="Click here to Pay"></p>
 		</form>
  
