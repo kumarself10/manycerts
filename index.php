@@ -81,8 +81,7 @@
             <label>Amount</label>
 			<input type="text" class="form-control" name="amount" Value="">
 			</div>
-			<h2> Certification questions Cost Rs 1000 per exam </h2>
-			<h2> Training Videos Cost Rs 5000 per Course </h2>
+			<h3> Cert Dumps Cost Rs 1000 per exam - Training Videos Cost Rs 5000 per Course </h3>
 			<p><input type="submit" class="btn btn-success btn-lg" value="Click here to Pay"></p>
 		</form>
  
