@@ -72,7 +72,7 @@
             <option value="CISSP">CISSP</option>
             <option value="Data Science">Data Science</option>
             <option value="Workday SaaS HCM">Workday SaaS HCM</option>
-            <option value="Workday SaaS Financethon">Workday SaaS Payroll</option>
+            <option value="Workday SaaS Finance">Workday SaaS Payroll</option>
             <option value="Redhat Ansible">Redhat Ansible</option>
             <option value="Redhat OpenShift">Redhat OpenShift</option>
             <option value="Redhat Linux 8">Redhat Linux 8</option>
