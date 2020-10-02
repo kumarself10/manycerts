@@ -55,14 +55,16 @@
 			<option value="Amazon Web Services">AWS Security Speciality</option>
             <option value="Microsoft Azure">Azure Administrator AZ-104</option>
 			<option value="Microsoft Azure">Azure Developer AZ-204</option>
-			<option value="Microsoft Azure">Azure Architect - Implementing AZ-300</option>
+			<option value="Microsoft Azure">Azure Architect - Implementing AZ-303</option>
+			<option value="Microsoft Azure">Azure Architect - Designing AZ-304</option>
 			<option value="Microsoft Azure">Azure DevOps AZ-400</option>
 			<option value="Microsoft Azure">Azure Security AZ-500</option>
-			<option value="Microsoft Azure">Azure Architect - Designing AZ-301</option>
 			<option value="Microsoft Azure">Azure Data Implemeting DP-200</option>
 			<option value="Microsoft Azure">Azure Data Designing DP-201</option>
 			<option value="Microsoft Azure">Azure Artificial Intelligence  AI-100</option>
 			<option value="Microsoft Azure">Azure SAP Workloads AZ-120</option>
+			<option value="NCP-MCI 5.15">Nutanix Certified Professional - Multicloud Infrastructure (NCP-MCI)</option>
+			<option value="NCAP">Nutanix Certified Advanced Professional - NACP</option>
             <option value="Microsoft Azure">Google Cloud Architect Professional </option>
 			<option value="Microsoft Azure">Google Cloud Data Engineer </option>
             <option value="DevOps">DevOps</option>
@@ -70,7 +72,7 @@
             <option value="CISSP">CISSP</option>
             <option value="Data Science">Data Science</option>
             <option value="Workday SaaS HCM">Workday SaaS HCM</option>
-            <option value="Workday SaaS Financethon">Workday SaaS Finance</option>
+            <option value="Workday SaaS Financethon">Workday SaaS Payroll</option>
             <option value="Redhat Ansible">Redhat Ansible</option>
             <option value="Redhat OpenShift">Redhat OpenShift</option>
             <option value="Redhat Linux 8">Redhat Linux 8</option>
